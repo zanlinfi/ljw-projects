@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FebSystem.props" />
+</Project>

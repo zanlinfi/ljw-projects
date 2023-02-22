@@ -1,0 +1,17 @@
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\bin\Debug\net6.0\Repository.dll
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\obj\Debug\net6.0\Repository.dll
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\bin\Debug\net6.0\EntityClass.dll
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\bin\Debug\net6.0\IRepository.dll
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\bin\Debug\net6.0\IRepository.pdb
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\bin\Debug\net6.0\EntityClass.pdb
+C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\Repository\obj\Debug\net6.0\Repository.csproj.CopyComplete

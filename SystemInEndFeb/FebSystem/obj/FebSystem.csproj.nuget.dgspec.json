@@ -1,0 +1,590 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\FebSystem\\FebSystem.csproj": {}
+  },
+  "projects": {
+    "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj",
+        "projectName": "ADOHelper.Db",
+        "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj",
+        "packagesPath": "C:\\Users\\zane.liu\\.nuget\\packages\\",
+        "outputPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\ADOHelper.Db\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zane.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://re-artifactory.gdotkubenp.com/artifactory/api/nuget/GD_Common": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj",
+        "projectName": "Dapper.Db",
+        "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj",
+        "packagesPath": "C:\\Users\\zane.liu\\.nuget\\packages\\",
+        "outputPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Dapper.Db\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zane.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://re-artifactory.gdotkubenp.com/artifactory/api/nuget/GD_Common": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj",
+        "projectName": "EFCore.Db",
+        "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj",
+        "packagesPath": "C:\\Users\\zane.liu\\.nuget\\packages\\",
+        "outputPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EFCore.Db\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zane.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://re-artifactory.gdotkubenp.com/artifactory/api/nuget/GD_Common": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EntityClass\\EntityClass.csproj": {
+                "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EntityClass\\EntityClass.csproj"
+              },
+              "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EntityClass\\EntityClass.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EntityClass\\EntityClass.csproj",
+        "projectName": "EntityClass",
+        "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EntityClass\\EntityClass.csproj",
+        "packagesPath": "C:\\Users\\zane.liu\\.nuget\\packages\\",
+        "outputPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EntityClass\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zane.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://re-artifactory.gdotkubenp.com/artifactory/api/nuget/GD_Common": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\FebSystem\\FebSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\FebSystem\\FebSystem.csproj",
+        "projectName": "FebSystem",
+        "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\FebSystem\\FebSystem.csproj",
+        "packagesPath": "C:\\Users\\zane.liu\\.nuget\\packages\\",
+        "outputPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\FebSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zane.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://re-artifactory.gdotkubenp.com/artifactory/api/nuget/GD_Common": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj": {
+                "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj"
+              },
+              "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj": {
+                "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj"
+              },
+              "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj": {
+                "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj"
+              },
+              "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\IRepository\\IRepository.csproj": {
+                "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\IRepository\\IRepository.csproj"
+              },
+              "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\IRepository\\IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\IRepository\\IRepository.csproj",
+        "projectName": "IRepository",
+        "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\IRepository\\IRepository.csproj",
+        "packagesPath": "C:\\Users\\zane.liu\\.nuget\\packages\\",
+        "outputPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zane.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://re-artifactory.gdotkubenp.com/artifactory/api/nuget/GD_Common": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EntityClass\\EntityClass.csproj": {
+                "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\EntityClass\\EntityClass.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\zane.liu\\.nuget\\packages\\",
+        "outputPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zane.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://re-artifactory.gdotkubenp.com/artifactory/api/nuget/GD_Common": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\IRepository\\IRepository.csproj": {
+                "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\IRepository\\IRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
