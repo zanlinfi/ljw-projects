@@ -84,5 +84,6 @@ execute DeleteById 29
 -- show all stored procedure
 select * from sys.objects where type='P'
 ```
-
+![Database & Tables structure](https://github.com/zanlinfi/ljw-projects/blob/main/Database%20%26%20Tables%20structure.png)
+![Project structure introduction](https://github.com/zanlinfi/ljw-projects/blob/main/Project%20structure%20introduction.png)
   
