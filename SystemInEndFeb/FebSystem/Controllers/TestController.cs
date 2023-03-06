@@ -1,4 +1,5 @@
 ﻿using EntityClass;
+using FebSystem.Services.IServices;
 using IRepository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -12,6 +13,17 @@ namespace FebSystem.Controllers
     //[Authorize]
     public class TestController : ControllerBase
     {
+        private readonly IHolidaysApiService _holidaysApiService;
+
+        public TestController(IHolidaysApiService holidaysApiService)
+        {
+            _holidaysApiService = holidaysApiService;
+        }
+
+        /// <summary>
+        /// identity framework test
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [Route("api/test1")]
         public IActionResult Test1()
@@ -30,7 +42,11 @@ namespace FebSystem.Controllers
         }
 
 
-
+        /// <summary>
+        /// jwt test
+        /// </summary>
+        /// <param name="jwt"></param>
+        /// <returns></returns>
         [HttpGet]
         [Route("api/test2")]
         public IActionResult Test2([FromServices] IOptions<JwtOptions> jwt)
@@ -39,7 +55,16 @@ namespace FebSystem.Controllers
             return Ok(jwt.Value.SigningKey);
         }
 
+        
+        [HttpGet]
+        [Route("api/test3")]
+        public async Task<IActionResult> Test3(string countryCode, int year)
+        {
+            List<Holiday> holidays = new List<Holiday>();
+            holidays = await _holidaysApiService.GetHolidays(countryCode, year);
 
+            return Ok(holidays);
+        }
 
     }
 }

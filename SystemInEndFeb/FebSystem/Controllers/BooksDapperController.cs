@@ -10,9 +10,9 @@ using System.Text.Json.Serialization;
 
 namespace FebSystem.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("booksDapper")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class BooksDapperController : ControllerBase
     {
         private readonly DapperProvider ctx;
@@ -91,6 +91,19 @@ namespace FebSystem.Controllers
                 return BadRequest("delete failure");
             }
             return Ok(data);
+        }
+
+
+        [HttpDelete("bulk")]
+        public async Task<bool> BulkDelete(string ids)
+        {
+            var data = await ctx.Books.BulkDelete(ids);
+            if (data)
+            {
+                return data;
+            }
+            logger.LogInformation($"no this data");
+            return data;
         }
 
     }

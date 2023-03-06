@@ -10,3 +10,15 @@ C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\EntityClass\obj\Debug\net6.0
 C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\EntityClass\obj\Debug\net6.0\refint\EntityClass.dll
 C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\EntityClass\obj\Debug\net6.0\EntityClass.pdb
 C:\Zane\Learning\WEBAPI\FebEndSystem\SystemInEndFeb\EntityClass\obj\Debug\net6.0\ref\EntityClass.dll
+D:\ZanLinfi\Projects\ljw-projects\SystemInEndFeb\EntityClass\bin\Debug\net6.0\EntityClass.deps.json
+D:\ZanLinfi\Projects\ljw-projects\SystemInEndFeb\EntityClass\bin\Debug\net6.0\EntityClass.dll
+D:\ZanLinfi\Projects\ljw-projects\SystemInEndFeb\EntityClass\bin\Debug\net6.0\EntityClass.pdb
+D:\ZanLinfi\Projects\ljw-projects\SystemInEndFeb\EntityClass\obj\Debug\net6.0\EntityClass.csproj.AssemblyReference.cache
+D:\ZanLinfi\Projects\ljw-projects\SystemInEndFeb\EntityClass\obj\Debug\net6.0\EntityClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\ZanLinfi\Projects\ljw-projects\SystemInEndFeb\EntityClass\obj\Debug\net6.0\EntityClass.AssemblyInfoInputs.cache
+D:\ZanLinfi\Projects\ljw-projects\SystemInEndFeb\EntityClass\obj\Debug\net6.0\EntityClass.AssemblyInfo.cs
+D:\ZanLinfi\Projects\ljw-projects\SystemInEndFeb\EntityClass\obj\Debug\net6.0\EntityClass.csproj.CoreCompileInputs.cache
+D:\ZanLinfi\Projects\ljw-projects\SystemInEndFeb\EntityClass\obj\Debug\net6.0\EntityClass.dll
+D:\ZanLinfi\Projects\ljw-projects\SystemInEndFeb\EntityClass\obj\Debug\net6.0\refint\EntityClass.dll
+D:\ZanLinfi\Projects\ljw-projects\SystemInEndFeb\EntityClass\obj\Debug\net6.0\EntityClass.pdb
+D:\ZanLinfi\Projects\ljw-projects\SystemInEndFeb\EntityClass\obj\Debug\net6.0\ref\EntityClass.dll

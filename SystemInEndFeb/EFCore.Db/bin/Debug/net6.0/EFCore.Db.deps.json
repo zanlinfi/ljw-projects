@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v6.0": {
       "EFCore.Db/1.0.0": {
         "dependencies": {
-          "EntityClass": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.1",
           "Microsoft.EntityFrameworkCore": "6.0.1",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.1",

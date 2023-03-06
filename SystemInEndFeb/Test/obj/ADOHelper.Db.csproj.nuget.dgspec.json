@@ -1,0 +1,541 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj": {}
+  },
+  "projects": {
+    "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj",
+        "projectName": "Test",
+        "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj",
+        "packagesPath": "C:\\Users\\86187\\.nuget\\packages\\",
+        "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\86187\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\FebSystem\\FebSystem.csproj": {
+                "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\FebSystem\\FebSystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj",
+        "projectName": "Dapper.Db",
+        "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj",
+        "packagesPath": "C:\\Users\\86187\\.nuget\\packages\\",
+        "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Dapper.Db\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\86187\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj",
+        "projectName": "EFCore.Db",
+        "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj",
+        "packagesPath": "C:\\Users\\86187\\.nuget\\packages\\",
+        "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EFCore.Db\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\86187\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj": {
+                "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj"
+              },
+              "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj",
+        "projectName": "EntityClass",
+        "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj",
+        "packagesPath": "C:\\Users\\86187\\.nuget\\packages\\",
+        "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\86187\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\FebSystem\\FebSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\FebSystem\\FebSystem.csproj",
+        "projectName": "FebSystem",
+        "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\FebSystem\\FebSystem.csproj",
+        "packagesPath": "C:\\Users\\86187\\.nuget\\packages\\",
+        "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\FebSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\86187\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj": {
+                "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj"
+              },
+              "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj": {
+                "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj"
+              },
+              "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj": {
+                "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj"
+              },
+              "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\IRepository\\IRepository.csproj": {
+                "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\IRepository\\IRepository.csproj"
+              },
+              "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\IRepository\\IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\IRepository\\IRepository.csproj",
+        "projectName": "IRepository",
+        "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\IRepository\\IRepository.csproj",
+        "packagesPath": "C:\\Users\\86187\\.nuget\\packages\\",
+        "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\86187\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj": {
+                "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\86187\\.nuget\\packages\\",
+        "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\86187\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\IRepository\\IRepository.csproj": {
+                "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\IRepository\\IRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

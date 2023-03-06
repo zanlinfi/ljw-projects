@@ -31,6 +31,25 @@ namespace Repository
             }
         }
 
+        public async Task<bool> BulkDelete(string ids)
+        {
+            //string[] strArr = ids.Trim().Split(",");
+            //int[] intArr;
+            //foreach (var i in strArr)
+            //{
+            //    Convert.ToInt32(i);
+            //}
+
+            var sql = $"DELETE FROM TBook WHERE Id IN ({ids})";
+            using (var connection = new SqlConnection(configuration.GetConnectionString("ConnStr")))
+            {
+                connection.Open();
+                var result = await connection.ExecuteAsync(sql);
+
+                return result > 0;
+            }
+        }
+
         public async Task<int> DeleteAsync(int id)
         {
             var sql = "DELETE FROM TBook WHERE Id = @Id";

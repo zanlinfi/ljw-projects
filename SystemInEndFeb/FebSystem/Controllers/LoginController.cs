@@ -32,26 +32,27 @@ namespace FebSystem.Controllers
                 return BadRequest(res);
             }
             return Ok(res);
-
         }
 
-
         [HttpPost]
-        [Route("api/Login/login")]
-        public async Task<IActionResult> Login([FromBody]LoginRequest req,
+        [Route("Login/login")]
+        public async Task<LoginResult> Login([FromBody]LoginRequest req,
                                                [FromServices] IOptions<JwtOptions> jwtOpts)
         {
+            LoginResult result;
             var user = await ctx.Ids.LoginAsync(req);
             string userName = user.UserName;
             //string password = user.UserName;
             if (userName.Equals("null"))
             {
-                return NotFound($"not found {req.UserName}");
+                result = new LoginResult() { Success=false, content="not found", Message="not found",State=404};
+                return result;
             }
             
             if (userName.Equals("error"))
             {
-                return BadRequest("login failure");
+                result = new LoginResult() { Success = false, content = "login failure", Message = "login failure", State = 400 };
+                return result;
             }
             
             var claims = new List<Claim>();
@@ -63,7 +64,8 @@ namespace FebSystem.Controllers
                 claims.Add(new Claim(ClaimTypes.Role, role));
             }
             string jwtToken = BuildTokenHelper.GetToken(claims, jwtOpts.Value);
-            return Ok(jwtToken);
+            result = new LoginResult() { Success = true, content = $"{{\"access_token\":\"Bearer {jwtToken}\", \"token_type\":\"bearer\"}}" , Message = "login success", State = 200 };
+            return result;
         }
 
 

@@ -2264,7 +2264,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "EntityClass >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.1",
       "Microsoft.EntityFrameworkCore >= 6.0.1",
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.1",
@@ -2300,9 +2299,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj": {
-              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj"
-            },
             "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj": {
               "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj"
             }

@@ -3,6 +3,8 @@ using Dapper.Db;
 using EFCore.Db;
 using EntityClass;
 using FebSystem.Filters;
+using FebSystem.Services.IServices;
+using FebSystem.Services.Services;
 using FluentValidation.AspNetCore;
 using IRepository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -76,12 +78,12 @@ namespace FebSystem
             builder.Services.AddDataProtection();
             builder.Services.AddIdentityCore<User>(opt =>
             {
-                opt.Password.RequireDigit= true;
-                opt.Password.RequireLowercase= false ;
-                opt.Password.RequireUppercase= false ;
-                opt.Password.RequireLowercase= false ;
-                opt.Password.RequireNonAlphanumeric= false;
-                opt.Password.RequiredLength= 5;
+                opt.Password.RequireDigit = true;
+                opt.Password.RequireLowercase = false;
+                opt.Password.RequireUppercase = false;
+                opt.Password.RequireLowercase = false;
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequiredLength = 5;
                 opt.Tokens.PasswordResetTokenProvider = TokenOptions.DefaultEmailProvider;
                 opt.Tokens.EmailConfirmationTokenProvider = TokenOptions.DefaultEmailProvider;
             });
@@ -132,9 +134,26 @@ namespace FebSystem
             builder.Services.AddFluentValidation(fv =>
             {
                 Assembly assembly = Assembly.GetExecutingAssembly();
-                fv.RegisterValidatorsFromAssemblies(new Assembly[] {assembly});
+                fv.RegisterValidatorsFromAssemblies(new Assembly[] { assembly });
             });
-            
+
+            // third party api
+            builder.Services.AddSingleton<IHolidaysApiService, HolidaysApiService>();
+
+            builder.Services.AddHttpClient("PublicHolidaysApi", c => c.BaseAddress = new Uri("https://date.nager.at"));
+
+            // front-back cors
+            //===Ìí¼Ó¿çÓò×é¼þ===
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("CorsRule",
+                    policy =>
+                    {
+                        policy.WithOrigins("http://127.0.0.1:5173", "http://127.0.0.1:5174");
+                    });
+
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -145,6 +164,8 @@ namespace FebSystem
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("CorsRule");
 
             app.UseAuthentication();
 

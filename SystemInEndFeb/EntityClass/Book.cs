@@ -10,7 +10,7 @@ namespace EntityClass
         [Key]    //主键
         [Column("Id")]  //列名
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]  //主键自增
-        [JsonIgnore]
+        //[JsonIgnore]
         public int Id { get; set; }
         [Column("Title")]
 

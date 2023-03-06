@@ -25,29 +25,48 @@ namespace FebSystem.Controllers
 
         // query
         // GET: api/<BooksEFController>
-        [HttpGet]
+        [Route("books/page")]
+        [HttpPost]
+        [NotUseTransaction]
+        public async Task<Result> GetAll([FromBody]Page page)
+        {
+            //var data = await memoryCache.GetOrCreateAsync("AllBooks", async (e) =>
+            //{
+            //    e.SlidingExpiration = TimeSpan.FromSeconds(9);
+            //    e.AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(27);
+            //    logger.LogInformation("get data from repository");
+            //    return await ctx.Books.GetBooksAsync(page);
+            //});
+
+            return await ctx.Books.GetBooksAsync(page);
+
+        }
+
+        // query 2
         [Route("api/books")]
         [HttpGet]
         [NotUseTransaction]
-        public async Task<IActionResult> GetAll()
+
+        public async Task<IActionResult> GetAllNoPage()
         {
             logger.LogInformation("start get books");
             // use memory cache
             var data = await memoryCache.GetOrCreateAsync("AllBooks", async (e) =>
             {
                 e.SlidingExpiration = TimeSpan.FromSeconds(9);
-                e.AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(27); 
+                e.AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(27);
                 logger.LogInformation("get data from repository");
                 return await ctx.Books.GetAllAsync();
             });
             logger.LogInformation("return data");
-            return Ok(data); 
-            
+            return Ok(data);
+
         }
+
 
         // GET api/<BookAdoController>/5
         [HttpGet()]
-        [Route("api/books/{id}")]
+        [Route("books/{id}")]
         [NotUseTransaction]
         public async Task<IActionResult> GetById(int id)
         {
@@ -62,7 +81,7 @@ namespace FebSystem.Controllers
 
         // POST api/<BookAdoController>
         [HttpPost]
-        [Route("api/books")]
+        [Route("books")]
         public async Task<IActionResult> Add([FromBody] Book book)
         {
             var data = await ctx.Books.AddAsync(book);
@@ -71,12 +90,25 @@ namespace FebSystem.Controllers
                 logger.LogInformation($"add failure");
                 return BadRequest("add erro");
             }
+           
             return Ok(data);
+        }
+        [HttpPost]
+        [Route("books/plus")]
+        public async Task<bool> AddBook([FromBody] BookRequest req)
+        {
+            var data = await ctx.Books.AddBookAsync(req);
+            if (data)
+            {
+                return data;
+            }
+            logger.LogInformation($"add failure");
+            return data;
         }
 
         // PUT api/<BookAdoController>/5
         [HttpPut()]
-        [Route("api/books/{id}")]
+        [Route("books/{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] Book book)
         {
             var data = await ctx.Books.UpdateAsync(id, book);
@@ -87,10 +119,23 @@ namespace FebSystem.Controllers
             }
             return Ok(data);
         }
+        [HttpPut()]
+        [Route("books/page")]
+        public async Task<bool> EditBook([FromBody] Book book)
+        {
+            var data = await ctx.Books.EditBookAsync(book);
+            if (data)
+            {
+                return data;
+            }
+            logger.LogInformation($"update book failure");
+            return data;
+        }
+
 
         // DELETE api/<BookAdoController>/5
         [HttpDelete()]
-        [Route("api/books/{id}")]
+        [Route("books/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             var data = await ctx.Books.DeleteAsync(id);

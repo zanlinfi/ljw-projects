@@ -19,11 +19,11 @@ namespace FebSystem.Filters
             Exception exception= context.Exception;
             logger.LogError(exception, "there have some unhandled exception");
             string message;
+            message = "unhandled exception";
             if (hostEnvironmentenv.IsDevelopment())
             {
                 message = exception.Message;
             }
-            message = "unhandled exception";
             ObjectResult result = new ObjectResult(new { code = 500, msg = message });
             result.StatusCode= 500;
             context.Result = result;

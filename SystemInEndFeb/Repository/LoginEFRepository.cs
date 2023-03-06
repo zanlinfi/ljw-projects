@@ -53,7 +53,7 @@ namespace Repository
 
         public async Task<User> LoginAsync(LoginRequest req)
         {
-            string userName = req.UserName;
+            string userName = req.Username;
             string password = req.Password;
             var user = await userManager.FindByNameAsync(userName);
             
