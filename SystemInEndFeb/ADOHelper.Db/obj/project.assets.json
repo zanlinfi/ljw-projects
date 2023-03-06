@@ -2168,26 +2168,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zane.liu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\86187\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj",
+      "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj",
       "projectName": "ADOHelper.Db",
-      "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj",
-      "packagesPath": "C:\\Users\\zane.liu\\.nuget\\packages\\",
-      "outputPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\ADOHelper.Db\\obj\\",
+      "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj",
+      "packagesPath": "C:\\Users\\86187\\.nuget\\packages\\",
+      "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\ADOHelper.Db\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\zane.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\86187\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2195,16 +2188,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://re-artifactory.gdotkubenp.com/artifactory/api/nuget/GD_Common": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Zane\\Learning\\WEBAPI\\FebEndSystem\\SystemInEndFeb\\Repository\\Repository.csproj"
+            "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj": {
+              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj"
             }
           }
         }

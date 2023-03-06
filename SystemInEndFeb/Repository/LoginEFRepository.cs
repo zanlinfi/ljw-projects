@@ -36,7 +36,7 @@ namespace Repository
             User userNew = await this.userManager.FindByNameAsync(user.UserName);
             if (userNew == null)
             {
-                userNew = user;//new User { UserName = "user1", Email = "user1@greendotcorp.com", EmailConfirmed = true };
+                userNew = user;
                 var u = await userManager.CreateAsync(userNew, "123456");
                 if (!u.Succeeded)
                 {
