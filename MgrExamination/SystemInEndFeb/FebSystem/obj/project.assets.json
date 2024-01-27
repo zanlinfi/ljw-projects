@@ -3072,11 +3072,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\FebSystem\\FebSystem.csproj",
+      "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\FebSystem\\FebSystem.csproj",
       "projectName": "FebSystem",
-      "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\FebSystem\\FebSystem.csproj",
+      "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\FebSystem\\FebSystem.csproj",
       "packagesPath": "C:\\Users\\86187\\.nuget\\packages\\",
-      "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\FebSystem\\obj\\",
+      "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\FebSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\86187\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3093,20 +3093,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj": {
-              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj"
+            "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj": {
+              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\ADOHelper.Db\\ADOHelper.Db.csproj"
             },
-            "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj": {
-              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj"
+            "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj": {
+              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj"
             },
-            "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj": {
-              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj"
+            "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj": {
+              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj"
             },
-            "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\IRepository\\IRepository.csproj": {
-              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\IRepository\\IRepository.csproj"
+            "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\IRepository\\IRepository.csproj": {
+              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\IRepository\\IRepository.csproj"
             },
-            "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj": {
-              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj"
+            "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\Repository\\Repository.csproj": {
+              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\Repository\\Repository.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D3QXftSRyhoM0SPwVbRkhho0VxxNy7C7ds49sEoEvaqQOhfbXNQpNzT7//HV0JCkN7UD/flBYs9yIVBoV0g6tA==",
+  "dgSpecHash": "2ogmDaP7OnScyQJAp796I1pFVLcYnrF9PEk7n8N0joDjADJez0ZcIivjrYxJ4qHPLuoyLW4r3iMtF8MyuRYUvg==",
   "success": true,
-  "projectFilePath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\FebSystem\\FebSystem.csproj",
+  "projectFilePath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\FebSystem\\FebSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86187\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\86187\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",

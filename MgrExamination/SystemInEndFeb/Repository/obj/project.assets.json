@@ -2155,11 +2155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj",
+      "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\Repository.csproj",
+      "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\86187\\.nuget\\packages\\",
-      "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Repository\\obj\\",
+      "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\86187\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2176,8 +2176,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\IRepository\\IRepository.csproj": {
-              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\IRepository\\IRepository.csproj"
+            "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\IRepository\\IRepository.csproj": {
+              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\IRepository\\IRepository.csproj"
             }
           }
         }

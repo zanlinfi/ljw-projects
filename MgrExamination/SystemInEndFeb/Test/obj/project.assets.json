@@ -6994,11 +6994,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Test\\Test.csproj",
+      "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Test\\Test.csproj",
+      "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\86187\\.nuget\\packages\\",
-      "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Test\\obj\\",
+      "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\86187\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7015,8 +7015,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\FebSystem\\FebSystem.csproj": {
-              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\FebSystem\\FebSystem.csproj"
+            "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\FebSystem\\FebSystem.csproj": {
+              "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\FebSystem\\FebSystem.csproj"
             }
           }
         }

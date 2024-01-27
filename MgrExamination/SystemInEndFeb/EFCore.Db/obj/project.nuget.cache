@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SuXDMjAUO0fXrQ0VkZSG6rADZbpL/FLjrDN9b0dImgeWS2JzdWJ7E1RhCdWS2nc7xluge8a2h4Nyol6dUoROoQ==",
+  "dgSpecHash": "fZ5R1vXSPlFW12kTq7bZgp/Do6E2K+l/sKp0OzoxKIoHqH5F0SAl0bO9ZSnDCL2n/eXNPgMz9H78ORl04NiZ5g==",
   "success": true,
-  "projectFilePath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj",
+  "projectFilePath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\EFCore.Db\\EFCore.Db.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86187\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\86187\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

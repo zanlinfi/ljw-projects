@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ISUBJt+uEydwxKETASEYYkmHW4fk4+KWnCoiUnNUMVMo771mWCRfBZUiJQW6Pl52TskKDVjtQ+E4q8Fsex8h1Q==",
+  "dgSpecHash": "OjReKEXUbNJl3kb9mMndl8eVwkUESenmotaIh67v+yZySGmYwctjaB0PxALB6d5FVICAvRXeSJqbTd47PHeuiQ==",
   "success": true,
-  "projectFilePath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj",
+  "projectFilePath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\Dapper.Db\\Dapper.Db.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86187\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\86187\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.1\\microsoft.aspnetcore.cryptography.internal.6.0.1.nupkg.sha512",

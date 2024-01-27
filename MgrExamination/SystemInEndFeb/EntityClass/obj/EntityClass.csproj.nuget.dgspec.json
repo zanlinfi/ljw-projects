@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj": {}
+    "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\EntityClass\\EntityClass.csproj": {}
   },
   "projects": {
-    "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj": {
+    "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\EntityClass\\EntityClass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj",
+        "projectUniqueName": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\EntityClass\\EntityClass.csproj",
         "projectName": "EntityClass",
-        "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\EntityClass.csproj",
+        "projectPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\EntityClass\\EntityClass.csproj",
         "packagesPath": "C:\\Users\\86187\\.nuget\\packages\\",
-        "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\SystemInEndFeb\\EntityClass\\obj\\",
+        "outputPath": "D:\\ZanLinfi\\Projects\\ljw-projects\\MgrExamination\\SystemInEndFeb\\EntityClass\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\86187\\AppData\\Roaming\\NuGet\\NuGet.Config",
